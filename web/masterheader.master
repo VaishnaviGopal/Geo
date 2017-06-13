@@ -1,0 +1,64 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="masterheader.master.cs" Inherits="web_masterpage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+
+                 <!-- footer start here --> 
+	<div class="footer-agile">
+		<div class="container">
+			<div class="footer-agileinfo"> 
+				<div class="col-md-5 col-sm-5 footer-wthree-grid"> 
+					<div class="agileits-w3layouts-tweets">  
+						<h5><a href="index.html">Geo Spatial Info</a></h5> 
+						<div class="social-icon footerw3ls">
+							<a href="#" class="social-button facebook"><i class="fa fa-facebook"></i></a> 
+							<a href="#" class="social-button twitter"><i class="fa fa-twitter"></i></a> 
+							<a href="#" class="social-button google"><i class="fa fa-google-plus"></i></a>  
+						</div>
+					</div>
+					<p>Aenean vitae metus sit amet purus sodales blandit. Nullam ut dolor eu urna viverra semper. Mauris est odio, laoreet laoreet sapien non, sollicitudin bibendum nulla.</p>
+				</div> 
+				<div class="col-md-3 col-sm-3 footer-wthree-grid">
+					<h3>Quick Links</h3>
+					<ul>
+						<li><a href="index.html"><span class="glyphicon glyphicon-menu-right"></span> Home</a></li>
+						<li><a href="about.html"><span class="glyphicon glyphicon-menu-right"></span> About</a></li> 
+						
+						<li><a href="login.aspx"><span class="glyphicon glyphicon-menu-right"></span>Login/Signup</a></li>
+                        <li><a href="contact.html"><span class="glyphicon glyphicon-menu-right"></span> Contact</a></li>
+					</ul>
+				</div> 	 
+				<div class="col-md-4 col-sm-4 footer-wthree-grid">
+					<h3>Contact Info</h3>
+					<ul>
+						<li>12-3-68</li> 
+						<li>Yellam Bazar,Warangal</li>
+						<li>Phone: +01 111 222 3333</li>
+						<li><a href="mailto:info@example.com"> mail@example.com</a></li>
+					</ul>
+				</div>
+				<div class="clearfix"> </div>		
+			</div>
+			<div class="copy-right"> 
+				<p>© Geo Spatial Info . All rights reserved 
+			</div>
+		</div>
+	</div> 
+	<!-- //footer end here --> 
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+   
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
